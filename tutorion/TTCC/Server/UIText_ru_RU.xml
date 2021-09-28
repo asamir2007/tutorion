@@ -1,0 +1,162 @@
+<ui_text>
+
+<test>
+<testString0 text="this is test text" />
+</test>
+
+<mainMenuItemLabel>
+			<videoSettings text="Настройки видео"/>
+			<micSettings text="Настройки микрофона"/>
+			<securitySettings text="Настройки плеера"/>
+			<toggleFullscreen text="Полноэкранный режим"/>
+			<windowsLayouts text="Режим отображения"/>
+			<normalMode text="Нормальный"/>
+			<chatAndWb text="Чат и доска"/>
+			<chatAndAV text="Видео и доска"/>
+</mainMenuItemLabel>
+
+<smartText>
+	<t1 text=""/>
+	<t2 text="Пользователь %0 присоединился к чату"/>
+	<t3 text="Пользователь %0 покинул чат"/>
+</smartText>
+
+<smartTextTable>
+	<t0 text="лет"/>
+	<t1 text="год"/>
+	<t2 text="года"/>
+	<t3 text="года"/>
+	<t4 text="года"/>
+	<t5 text="лет"/>
+	<t6 text="лет"/>
+	<t7 text="лет"/>
+	<t8 text="лет"/>
+	<t9 text="лет"/>
+</smartTextTable>
+
+<time ss="с" mm="м" hh="ч" dd="д"/>
+
+<static_text>
+			<st text="Чат" comment="ID_TEXT_CHAT_WINDOW_TITLE" />s
+			<st text="Дорогой" comment="ID_TEXT_CHAT_CL_DEAR" />
+			<st text="&lt;Нет имени&gt;" comment="ID_TEXT_CHAT_CL_INVISIBLE_USER_NAME" />
+			<st text="Пуск" comment="ID_TEXT_MAIN_PANEL_B_START" />
+			<st text="Начните работу с нажатия этой кнопки" comment="ID_TEXT_MAIN_PANEL_B_START_TIP" />
+			<st text="Менеджер курсов" comment="ID_TEXT_COURSE_LOADER_WINDOW_TITLE" />
+			<st text="Загрузить презентацию" comment="ID_TEXT_PRESENTATION_LOADER_WINDOW_TITLE" />
+			<st text="Вставить на доску" comment="ID_TEXT_PRESENTATION_LOADER_B_APPLY" />
+			<st text="Выбрать файл" comment="ID_TEXT_PRESENTATION_LOADER_B_LOAD" />
+			<st text="Видео" comment="ID_TEXT_VIDEO_WINDOW_TITLE" />
+			<st text="Настройки видео" comment="ID_TEXT_VIDEO_WINDOW_B_SETTINGS" />
+			<st text="&lt;Нет имени&gt;" comment="ID_TEXT_VIDEO_CL_USER_NAME_IS_EMPTY" />
+			<st text="Включить прием входящего видео" comment="ID_TEXT_VIDEO_B_TOGGLE_V_IN_ON:uint=12" />
+			<st text="Отключить прием входящего видео" comment="ID_TEXT_VIDEO_B_TOGGLE_V_IN_OFF:uint=13" />
+			<st text="Включить отправку видео" comment="ID_TEXT_VIDEO_B_TOGGLE_V_OUT_ON:uint=14" />
+			<st text="Отключить отправку видео" comment="ID_TEXT_VIDEO_B_TOGGLE_V_OUT_OFF:uint=15" />
+			<st text="Включить прием входящего аудио" comment="ID_TEXT_VIDEO_B_TOGGLE_AU_IN_ON:uint=16" />
+			<st text="Отключить прием входящего аудио" comment="ID_TEXT_VIDEO_B_TOGGLE_AU_IN_OFF:uint=17" />
+			<st text="Включить отправку аудио" comment="ID_TEXT_VIDEO_B_TOGGLE_AU_OUT_ON:uint=18" />
+			<st text="Отключить отправку аудио" comment="ID_TEXT_VIDEO_B_TOGGLE_AU_OUT_OFF:uint=19" />
+			<st text="Включить отправку потока\n(возобновить трансляцию)" comment="ID_TEXT_VIDEO_B_TOGGLE_S_ON:uint=20" />
+			<st text="Отключить отправку потока\n(прекратить трансляцию)" comment="ID_TEXT_VIDEO_B_TOGGLE_S_OFF:uint=21" />
+			<st text="Реплей менеджер" comment="ID_TEXT_REPLAY_MANAGER_WINDOW_TITLE:uint=22" />
+			<st text="Играть" comment="ID_TEXT_REPLAY_MANAGER_B_PLAY:uint=23" />
+			<st text="Стоп" comment="ID_TEXT_REPLAY_MANAGER_B_STOP:uint=24" />
+			<st text="Запись" comment="ID_TEXT_REPLAY_MANAGER_B_RECORD:uint=25" />
+			<st text="Класс" comment="ID_TEXT_MP_CLASS:uint=26" />
+			<st text="Доска" comment="ID_TEXT_WB_WINDOW_TITLE:uint=27" />
+			<st text="Онлайн" comment="ID_TEXT_MP_USERS_ONLINE:uint=28" />
+			<st text="Поднять руку" comment="ID_TEXT_MAIN_PANEL_B_HAND_UP:uint=29" />
+			
+			<st text="Выбор цвета" comment="30" />
+			<st text="Выбор толщины линии/размера текста" comment="" />
+			<st text="Рисование отруки" comment="" />
+			<st text="Линия" comment="" />
+			<st text="Окружность" comment="" />
+			<st text="Квадрат" comment="" />
+			<st text="Эллипс" comment="" />
+			<st text="Текст" comment="" />
+			<st text="Ластик" comment="" />
+			<st text="Отменить последнее действие" comment="" />
+			
+			<st text="Добавить страницу" comment="" />
+			<st text="Удалить страницу" comment="" />
+			<st text="Очистить страницу" comment="" />
+			<st text="Предыдущия страница" comment="" />
+			<st text="Следующая страница" comment="" />
+			<st text="Загрузить сохраненную ранее доску" comment="" />
+			<st text="Сохранить доску" comment="" />
+			<st text="Удалить все страницы" comment="" />
+			<st text="Увеличить" comment="" />
+			<st text="Уменьшить" comment="" />
+			
+			<st text="Опустить руку" comment="ID_TEXT_MAIN_PANEL_B_HAND_DOWN:uint=50" />
+			<st text="Отправить сообщение" comment="ID_TEXT_CHAT_SEND_BUTTON" />
+			<st text="отображать/скрывать сообщения этого пользователя" comment="ID_TEXT_CHAT_BAN_BUTTON" />
+			<st text="Предупреждение" comment="" />
+			<st text="Текущее разрешение экрана приложения не соответствует минимально допустимому\nМинимально допустимое разрешение: " comment="" />
+			<st text="пикселей" comment="ID_TEXT_PIXELS" />
+			<st text="текущее разрешение:" comment="ID_TEXT_MIN_RESOLUTION_NOTIFICATION_CURRENT" />
+			<st text="Ошибка" comment="ID_TEXT_ERROR" />
+			<st text="Соединение потеряно\nобновите страницу" comment="ID_TEXT_DISCONNECTED_MSG_TEXT" />
+			<st text="Соединение прервано\nпожалуйста подождите..." comment="ID_TEXT_SUSPEND_MSG_TEXT" />
+			<st text="Выберите размер текста" comment="ID_TEXT_WB_SELECT_TEXT_SIZE" />
+			<st text="Выберите толщину линии" comment="ID_TEXT_WB_SELECT_LINE_SIZE" />
+			<st text="Выберите толщину линии/размер текста" comment="ID_TEXT_WB_SELECT_LINE_TEXT_SIZE" />
+			<st text="Цвет" comment="ID_TEXT_WB_SELECT_COLOR" />
+			<st text="Пожалуйста, подождите" comment="ID_TEXT_PLEASE_WAIT" />
+			<st text="Лектора нет в классе,\nПожалуйста, подождите" comment="ID_TEXT_NO_LECTOR" />
+			<st text="Микрофон не подключен" comment="ID_TEXT_HAS_NO_MIC" />
+			<st text="Камера не подключена" comment="ID_TEXT_HAS_NO_CAM" />
+			<st text="Сообщить об ошибке" comment="ID_TEXT_REPORT_UPLOADER_WINDOW_TITLE" />
+			<st text="краткое описание неисправности:" comment="ID_TEXT_REPORT_UPLOADER_DESCR" />
+			<st text="последовательность действий, вызвавших неисправность:" comment="ID_TEXT_REPORT_UPLOADER_REPRODUCE" />
+			<st text="в каком окне произошло:" comment="ID_TEXT_REPORT_UPLOADER_WHICH_WND" />
+			<st text="категория неисправности:" comment="ID_TEXT_REPORT_UPLOADER_ERR_TYPE" />
+			<st text="отправить" comment="ID_TEXT_REPORT_UPLOADER_B_SEND" />
+			<st text="Cпасибо!" comment="ID_TEXT_REPORT_UPLOADER_SENT_THANKYOU_WND_TITLE" />
+			<st text="Ваш отзыв поможет нам устранить неисправность" comment="ID_TEXT_REPORT_UPLOADER_SENT_THANKYOU_WND_TEXT" />
+			<st text="Не удалось отправить отчет" comment="ID_TEXT_REPORT_UPLOADER_FAILED_CHECK_CONNECTION_WND_TITLE" />
+			<st text="Пожалуйста, проверьте наличие соединения с интернетом \nзатем попробуйте еще раз, ваш отзыв поможет нам устранить неисправность" comment="ID_TEXT_REPORT_UPLOADER_FAILED_CHECK_CONNECTION_WND_TEXT" />
+			
+			<st text="связано с видео" comment="ID_TEXT_REPORT_UPLOADER_ERR_TYPE_0" />
+			<st text="связано с звуком" comment="ID_TEXT_REPORT_UPLOADER_ERR_TYPE_1" />
+			<st text="связано с кнопками и другими элементами в интерфейсе" comment="ID_TEXT_REPORT_UPLOADER_ERR_TYPE_2" />
+			<st text="не отображается картинка(например аватар пользователя)" comment="ID_TEXT_REPORT_UPLOADER_ERR_TYPE_3" />
+			<st text="ошибка в интерфейсе программы(например опечатка)" comment="ID_TEXT_REPORT_UPLOADER_ERR_TYPE_4" />
+			<st text="" comment="ID_TEXT_REPORT_UPLOADER_ERR_TYPE_5" />
+			<st text="" comment="ID_TEXT_REPORT_UPLOADER_ERR_TYPE_6" />
+			<st text="" comment="ID_TEXT_REPORT_UPLOADER_ERR_TYPE_7" />
+			<st text="" comment="ID_TEXT_REPORT_UPLOADER_ERR_TYPE_8" />
+			<st text="" comment="ID_TEXT_REPORT_UPLOADER_ERR_TYPE_9" />
+			<st text="" comment="ID_TEXT_REPORT_UPLOADER_ERR_TYPE_10" />
+			<st text="" comment="ID_TEXT_REPORT_UPLOADER_ERR_TYPE_11" />
+			<st text="&lt;главная панель и окна отсутствуют&gt; (пустой экран)" comment="ID_TEXT_REPORT_UPLOADER_ERR_TYPE_12" />
+			<st text="другое" comment="ID_TEXT_REPORT_UPLOADER_ERR_TYPE_13" />
+			<st text="Главная панель" comment="ID_TEXT_WND_MAIN_PANEL_WND_TITLE" />
+			
+			<st text="Список пользователей" comment="ID_TEXT_USERLIST_MAIN_PANEL_WND_TITLE" />
+			<st text="Уровень микрофона" comment="ID_TEXT_MP_MIC_LEVEL" />
+			<st text="загрузка данных с сервера" comment="ID_TEXT_CL_LOADING_DATA_FROM_SERVER" />
+			
+			
+			<st text="поддерживаемые форматы:" comment="ID_TEXT_PL_SUPPORTED_FILE_FORMATS" />
+			<st text=".txt .doc .xls .ppt .pptx .pdf .jpg .jpeg .gif .png" comment="ID_TEXT_PL_FILE_FORMATS_LIST" />
+			<st text=" размер файла не более " comment="ID_TEXT_PL_FILESIZE_NO_MORE_THAN" />
+			<st text="выберите файл для загрузки." comment="ID_TEXT_PL_SELECT_FILE" />
+			<st text="мб" comment="ID_TEXT_PL_MEGABYTES" />
+			<st text="файл слишком большой:" comment="ID_TEXT_PL_FILE_TOO_LARGE" />
+			<st text="макс:" comment="ID_TEXT_PL_MAX" />
+			<st text="загрузка файла на сервер..." comment="ID_TEXT_PL_UPLOADING_FILE" />
+			<st text="обработка файла на сервере..." comment="ID_TEXT_PL_PROCESSING_FILE" />
+			<st text="не удалось загрузить файл" comment="ID_TEXT_PL_FAILED_TO_UPLOAD" />
+			<st text="загрузка на сервер завершена" comment="ID_TEXT_PL_UPLOAD_COMPLETED" />
+			<st text="не найдено картинок в файле. попробуйте снова." comment="ID_TEXT_PL_PAGES_NOT_FOUND_IN_FILE" />
+			<st text="загрузка... " comment="ID_TEXT_PL_LOADING" />
+			<st text="кб из " comment="ID_TEXT_PL_LOADING2" />
+			<st text="" comment="" />
+	
+</static_text>
+
+
+</ui_text>

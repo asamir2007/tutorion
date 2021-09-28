@@ -1,0 +1,176 @@
+	<root>
+  <descr ID="normal" text="normal mode"/>
+
+  <!--  *************  modules  ****************  --> 
+  <mod ID="taskbar" wx="9" wy="24" ww="626" wh="398" window_is_visible="1" styl="taskbar_styl"/>
+  <mod ID="replay_manager" record_mode="1" wx="150" wy="11" ww="258" wh="82" window_is_visible="1"  mp_button_is_visible="1"/>
+  <mod ID="debug_info" wx="827" wy="31" ww="408" wh="602" level="2" window_is_visible="1"  mp_button_is_visible="1"/>
+  <mod ID="presentation_loader" wx="430" wy="198" ww="416" wh="449" window_is_visible="0" mp_button_is_visible="1" styl="pres_styl"/>
+  <mod ID="course_loader" wx="330" wy="248" ww="416" wh="449" window_is_visible="1" mp_button_is_visible="1"/>
+  <mod ID="text_chat" wx="252" wy="150" ww="110" wh="111" window_is_visible="1" styl="chat_styl" mp_button_is_visible="1"/>
+  <mod ID="v_list" wx="75" wy="32" ww="450" wh="250" window_is_visible="1" mp_button_is_visible="1" styl="video_3"/>
+  <mod ID="whiteboard" test_mode="0" wx="305" wy="252" ww="472" wh="344" window_is_visible="1" mp_button_is_visible="1" styl="wb_styl"/>
+
+   <mode ID="default" label="normalMode">
+		<mod ID="presentation_loader" px="22.740963" py="4.854368" pw="51.280120" ph="89.320388" wx="430" wy="198" ww="416" wh="449" window_is_visible="0"/>
+		<mod ID="course_loader" px="6.551204" py="16.828478" pw="34.337349" ph="56.796116"  wx="688" wy="331" ww="300" wh="220" window_is_visible="0"/>
+		<mod ID="replay_manager" px="75.376506" py="26.699029" pw="22.590361" ph="16.181229" record_mode="1" wx="688" wy="558" ww="300" wh="102" window_is_visible="0"/>
+		<mod ID="debug_info" px="1" py="4.854368" pw="100" ph="35" wx="827" wy="31" ww="408" wh="602" level="2" window_is_visible="0"/>
+		<mod ID="v_list" px="59.119897" py="3.133514" pw="40.369897" ph="50" wx="8" wy="410" ww="673" wh="251" window_is_visible="1"/>
+		<mod ID="text_chat" px="59.119897" py="54.632152" pw="40.369897" ph="41.280653" wx="688" wy="26" ww="300" wh="295" window_is_visible="1"/>
+		<mod ID="whiteboard" px="0.446428" py="2.861035" pw="58.163265" ph="92.779291" wx="8" wy="25" ww="673" wh="377" window_is_visible="1"/>
+    </mode>
+   <mode ID="chatAndWb" label="chatAndWb">
+		<mod ID="presentation_loader" px="22.740963" py="4.854368" pw="51.280120" ph="89.320388" wx="430" wy="198" ww="416" wh="449" window_is_visible="0"/>
+		<mod ID="course_loader" px="6.551204" py="16.828478" pw="34.337349" ph="56.796116"  wx="688" wy="331" ww="300" wh="220" window_is_visible="0"/>
+		<mod ID="replay_manager" px="75.376506" py="26.699029" pw="22.590361" ph="16.181229" record_mode="1" wx="688" wy="558" ww="300" wh="102" window_is_visible="0"/>
+		<mod ID="debug_info" px="1" py="4.854368" pw="100" ph="35" wx="827" wy="31" ww="408" wh="602" level="2" window_is_visible="0"/>
+		<mod ID="v_list" wx="75" wy="32" ww="450" wh="250" window_is_visible="0"/>
+		<mod ID="whiteboard" px="0.446428" py="2.861035" pw="58.163265" ph="92.779291" wx="5" wy="20" ww="759" wh="441" window_is_visible="1"/>
+		<mod ID="text_chat" px="59.119897" py="3.133514" pw="40.369897" ph="92.779291"
+ window_is_visible="1"/>
+    </mode>
+   <mode ID="chatAndAV" label="chatAndAV">
+		<mod ID="presentation_loader" px="22.740963" py="4.854368" pw="51.280120" ph="89.320388" wx="430" wy="198" ww="416" wh="449" window_is_visible="0"/>
+		<mod ID="course_loader" px="6.551204" py="16.828478" pw="34.337349" ph="56.796116"  wx="688" wy="331" ww="300" wh="220" window_is_visible="0"/>
+		<mod ID="replay_manager" px="75.376506" py="26.699029" pw="22.590361" ph="16.181229" record_mode="1" wx="688" wy="558" ww="300" wh="102" window_is_visible="0"/>
+		<mod ID="debug_info" px="1" py="4.854368" pw="100" ph="35" wx="827" wy="31" ww="408" wh="602" level="2" window_is_visible="0"/>
+		<mod ID="whiteboard" px="0.446428" py="3.269754" pw="69.005102" ph="93.051771" wx="8" wy="25" ww="673" wh="377" window_is_visible="1"/>
+		<mod ID="v_list" px="69.770408" py="3.405994" pw="29.591836" ph="92.915531" window_is_visible="1"/>
+		<mod ID="text_chat" wx="5" wy="467" ww="759" wh="250" window_is_visible="0"/>
+    </mode>  
+	
+
+  <resources>
+	<res filename="resources0.swf" group_critical="0" group_id="baseUIRes"/>
+  </resources>
+  
+ <main_menu>
+<menuitem position="2" id="securitySettings" type="command" label="securitySettings"/>
+<menuitem position="3" id="toggleFullscreen" type="command" label="toggleFullscreen"/>
+<menuitem position="1" id="windowsLayouts" type="customMenu" label="windowsLayouts"/>
+<!--menuitem id="some_menu_example" type="menu"/-->
+</main_menu>
+
+
+  <include file="style.xml" toTag="styles"/>	
+  
+  <modeSettings buffer_time_in="1"  buffer_time_in_max="1"  buffer_time_out="1"  buffer_time_out_max="1" video_resolution_w="320" video_resolution_h="240" freeze_timeout="5000" disconnect_timeout="15000" />
+
+
+  
+  <ui_text>
+
+<test>
+<testString0 text="this is test text" />
+</test>
+
+<mainMenuItemLabel>
+			<securitySettings text="Настройки плеера"/>
+			<toggleFullscreen text="Полноэкранный режим"/>
+			<windowsLayouts text="Режим отображения"/>
+			<normalMode text="Нормальный"/>
+			<chatAndWb text="Чат и доска"/>
+			<chatAndAV text="Видео и доска"/>
+</mainMenuItemLabel>
+
+<smartText>
+	<t1 text=""/>
+	<t2 text="Пользователь %0 присоединился к чату"/>
+	<t3 text="Пользователь %0 покинул чат"/>
+</smartText>
+
+<smartTextTable>
+	<t0 text="лет"/>
+	<t1 text="год"/>
+	<t2 text="года"/>
+	<t3 text="года"/>
+	<t4 text="года"/>
+	<t5 text="лет"/>
+	<t6 text="лет"/>
+	<t7 text="лет"/>
+	<t8 text="лет"/>
+	<t9 text="лет"/>
+</smartTextTable>
+
+<time ss="с" mm="м" hh="ч" dd="д"/>
+
+<static_text>
+			<st text="Чат" comment="ID_TEXT_CHAT_WINDOW_TITLE" />s
+			<st text="Дорогой" comment="ID_TEXT_CHAT_CL_DEAR" />
+			<st text="&lt;Нет имени&gt;" comment="ID_TEXT_CHAT_CL_INVISIBLE_USER_NAME" />
+			<st text="Пуск" comment="ID_TEXT_MAIN_PANEL_B_START" />
+			<st text="Начните работу с нажатия этой кнопки" comment="ID_TEXT_MAIN_PANEL_B_START_TIP" />
+			<st text="Менеджер курсов" comment="ID_TEXT_COURSE_LOADER_WINDOW_TITLE" />
+			<st text="Аплоадер презентаций" comment="ID_TEXT_PRESENTATION_LOADER_WINDOW_TITLE" />
+			<st text="Вставить на доску" comment="ID_TEXT_PRESENTATION_LOADER_B_APPLY" />
+			<st text="Выбрать файл" comment="ID_TEXT_PRESENTATION_LOADER_B_LOAD" />
+			<st text="Видео" comment="ID_TEXT_VIDEO_WINDOW_TITLE" />
+			<st text="Настройки видео" comment="ID_TEXT_VIDEO_WINDOW_B_SETTINGS" />
+			<st text="&lt;Нет имени&gt;" comment="ID_TEXT_VIDEO_CL_USER_NAME_IS_EMPTY" />
+			<st text="Включить прием входящего видео" comment="ID_TEXT_VIDEO_B_TOGGLE_V_IN_ON:uint=12" />
+			<st text="Отключить прием входящего видео" comment="ID_TEXT_VIDEO_B_TOGGLE_V_IN_OFF:uint=13" />
+			<st text="Включить отправку видео" comment="ID_TEXT_VIDEO_B_TOGGLE_V_OUT_ON:uint=14" />
+			<st text="Отключить отправку видео" comment="ID_TEXT_VIDEO_B_TOGGLE_V_OUT_OFF:uint=15" />
+			<st text="Включить прием входящего аудио" comment="ID_TEXT_VIDEO_B_TOGGLE_AU_IN_ON:uint=16" />
+			<st text="Отключить прием входящего аудио" comment="ID_TEXT_VIDEO_B_TOGGLE_AU_IN_OFF:uint=17" />
+			<st text="Включить отправку аудио" comment="ID_TEXT_VIDEO_B_TOGGLE_AU_OUT_ON:uint=18" />
+			<st text="Отключить отправку аудио" comment="ID_TEXT_VIDEO_B_TOGGLE_AU_OUT_OFF:uint=19" />
+			<st text="Включить отправку потока\n(возобновить трансляцию)" comment="ID_TEXT_VIDEO_B_TOGGLE_S_ON:uint=20" />
+			<st text="Отключить отправку потока\n(прекратить трансляцию)" comment="ID_TEXT_VIDEO_B_TOGGLE_S_OFF:uint=21" />
+			<st text="Реплей менеджер" comment="ID_TEXT_REPLAY_MANAGER_WINDOW_TITLE:uint=22" />
+			<st text="Играть" comment="ID_TEXT_REPLAY_MANAGER_B_PLAY:uint=23" />
+			<st text="Стоп" comment="ID_TEXT_REPLAY_MANAGER_B_STOP:uint=24" />
+			<st text="Запись" comment="ID_TEXT_REPLAY_MANAGER_B_RECORD:uint=25" />
+			<st text="Класс" comment="ID_TEXT_MP_CLASS:uint=26" />
+			<st text="Доска" comment="ID_TEXT_WB_WINDOW_TITLE:uint=27" />
+			<st text="Онлайн" comment="ID_TEXT_MP_USERS_ONLINE:uint=28" />
+			<st text="Поднять руку" comment="ID_TEXT_MAIN_PANEL_B_HAND_UP:uint=29" />
+			
+			<st text="Выбор цвета" comment="30" />
+			<st text="Выбор толщины линии/размера шрифта" comment="" />
+			<st text="Рисование отруки" comment="" />
+			<st text="Линия" comment="" />
+			<st text="Окружность" comment="" />
+			<st text="Квадрат" comment="" />
+			<st text="Эллипс" comment="" />
+			<st text="Текст" comment="" />
+			<st text="Ластик" comment="" />
+			<st text="Отменить последнее действие" comment="" />
+			
+			<st text="Добавить страницу" comment="" />
+			<st text="Удалить страницу" comment="" />
+			<st text="Очистить страницу" comment="" />
+			<st text="Предыдущия страница" comment="" />
+			<st text="Следующая страница" comment="" />
+			<st text="Загрузить сохраненную ранее доску" comment="" />
+			<st text="Сохранить доску" comment="" />
+			<st text="Удалить все страницы" comment="" />
+			<st text="Увеличить" comment="" />
+			<st text="Уменьшить" comment="" />
+			
+			<st text="Опустить руку" comment="ID_TEXT_MAIN_PANEL_B_HAND_DOWN:uint=50" />
+			<st text="Отправить сообщение" comment="ID_TEXT_CHAT_SEND_BUTTON" />
+			<st text="отображать/скрывать сообщения этого пользователя" comment="ID_TEXT_CHAT_BAN_BUTTON" />
+			<st text="Предупреждение" comment="" />
+			<st text="Текущее разрешение экрана приложения не соответствует минимально допустимому\nМинимально допустимое разрешение: " comment="" />
+			<st text="пикселей" comment="ID_TEXT_PIXELS" />
+			<st text="текущее разрешение:" comment="ID_TEXT_MIN_RESOLUTION_NOTIFICATION_CURRENT" />
+			<st text="Ошибка" comment="ID_TEXT_ERROR" />
+			<st text="Соединение потеряно\nобновите страницу" comment="ID_TEXT_DISCONNECTED_MSG_TEXT" />
+			<st text="Соединение прервано\nпожалуйста подождите..." comment="ID_TEXT_SUSPEND_MSG_TEXT" />
+			<st text="Выберите размер текста" comment="ID_TEXT_WB_SELECT_TEXT_SIZE" />
+			<st text="Выберите толщину линии" comment="ID_TEXT_WB_SELECT_LINE_SIZE" />
+			<st text="Выберите толщину линии/размер текста" comment="ID_TEXT_WB_SELECT_LINE_TEXT_SIZE" />
+			<st text="Выберите цвет линии/текста" comment="ID_TEXT_WB_SELECT_COLOR" />
+			<st text="Пожалуйста, подождите" comment="ID_TEXT_PLEASE_WAIT" />
+			<st text="Лектора нет в классе,\nПожалуйста, подождите" comment="ID_TEXT_NO_LECTOR" />
+			<st text="Микрофон не подключен" comment="ID_TEXT_HAS_NO_MIC" />
+			<st text="Камера не подключена" comment="ID_TEXT_HAS_NO_CAM" />
+	
+</static_text>
+
+
+</ui_text>
+
+</root>

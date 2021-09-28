@@ -1,0 +1,8 @@
+<main_menu>
+<!--menuitem position="1" id="windowsLayouts" type="customMenu" label="windowsLayouts"/-->
+<menuitem position="1" id="securitySettings" type="command" label="securitySettings"/>
+<menuitem position="2" id="videoSettings" type="command" label="videoSettings"/>
+<menuitem position="3" id="micSettings" type="command" label="micSettings"/>
+<menuitem position="4" id="toggleFullscreen" type="command" label="toggleFullscreen"/>
+<!--menuitem id="some_menu_example" type="menu"/-->
+</main_menu>

@@ -1,0 +1,199 @@
+<icons folder="flashIcons">
+	<ico name="loader" path="loader.gif" load="false"/>
+	<ico name="appBG" path="bg2.png"/>	
+	<ico name="wbBG" path="list_4.png"/>
+	
+<!-- ******* Basic window graphics -->
+
+	<ico name="rsBar" path="resize.png"/>
+	<ico name="rsBar0" path="resize0.png"/>
+
+	<ico name="closeBar" path="close.png"/>		<!-- basic -->
+	<ico name="closeBar0" path="close0.png"/>   <!-- over -->
+	<ico name="closeBar2" path="close1.png"/>	<!-- dark -->
+		
+<!-- ******* Taskbar and mod headers -->
+
+	<ico name="whiteboard" 	path="tut/headers/board_h.png"/>
+	<ico name="whiteboard1" path="tut/menu/menu_white/board_w.png"/>
+	<ico name="whiteboard0" path="tut/menu/menu_blue/board_b.png"/>
+	<ico name="whiteboard2" path="tut/menu/menu_pressed/board_p.png"/>	
+	
+	<ico name="text_chat"	path="tut/headers/chat_h.png"/>
+	<ico name="text_chat1"	path="tut/menu/menu_white/chat_w.png"/>
+	<ico name="text_chat0"	path="tut/menu/menu_blue/chat_b.png"/>
+	<ico name="text_chat2"	path="tut/menu/menu_pressed/chat_p.png"/>	
+
+	<ico name="help_page"	path="tut/headers/help_h.png"/>
+	<ico name="help_page1"	path="tut/menu/menu_white/help_w.png"/>
+	<ico name="help_page0"	path="tut/menu/menu_blue/help_b.png"/>
+	<ico name="help_page2"	path="tut/menu/menu_pressed/help_p.png"/>	
+
+	<ico name="debug_info"	path="tut/headers/info_h.png"/>
+	<ico name="debug_info1" path="tut/menu/menu_white/info_w.png"/>
+	<ico name="debug_info0" path="tut/menu/menu_blue/info_b.png"/>
+	<ico name="debug_info2" path="tut/menu/menu_pressed/info_p.png"/>	
+
+	<ico name="course_loader"  path="tut/headers/manage_h.png"/>
+	<ico name="course_loader1" path="tut/menu/menu_white/manage_w.png"/>
+	<ico name="course_loader0" path="tut/menu/menu_blue/manage_b.png"/>
+	<ico name="course_loader2" path="tut/menu/menu_pressed/manage_p.png"/>	
+
+	<ico name="presentation_loader"  path="tut/headers/pres_h.png"/>
+	<ico name="presentation_loader1" path="tut/menu/menu_white/presentation_w.png"/>
+	<ico name="presentation_loader0" path="tut/menu/menu_blue/presentation_b.png"/>
+	<ico name="presentation_loader2" path="tut/menu/menu_pressed/pres_p.png"/>	
+
+	<ico name="rep_mgr"  path="tut/headers/replay_h.png"/>
+	<ico name="rep_mgr1" path="tut/menu/menu_white/replay_w.png"/>
+	<ico name="rep_mgr0" path="tut/menu/menu_blue/replay_b.png"/>
+	<ico name="rep_mgr2" path="tut/menu/menu_pressed/replay_p.png"/>	
+
+	<ico name="v_settings" 	path="tut/headers/settings_h.png"/>
+	<ico name="v_settings1" path="tut/menu/menu_white/settings_w.png"/>
+	<ico name="v_settings0" path="tut/menu/menu_blue/settings_b.png"/>
+	<ico name="v_settings2" path="tut/menu/menu_pressed/settings_p.png"/>	
+
+	<ico name="v_stats"  path="tut/headers/stats_h.png"/>
+	<ico name="v_stats1" path="tut/menu/menu_white/stats_w.png"/>
+	<ico name="v_stats0" path="tut/menu/menu_blue/stats_b.png"/>
+	<ico name="v_stats2" path="tut/menu/menu_pressed/stats_p.png"/>	
+
+	<ico name="v_list"  path="tut/headers/video_h.png"/>
+	<ico name="v_list1" path="tut/menu/menu_white/video_w.png"/>
+	<ico name="v_list0" path="tut/menu/menu_blue/video_b.png"/>
+	<ico name="v_list2" path="tut/menu/menu_pressed/video_p.png"/>	
+
+	<ico name="translator" 	path="tut/headers/translate_h.png"/>		
+	<ico name="translator1" path="tut/menu/menu_white/translate_w.png"/>
+	<ico name="translator0" path="tut/menu/menu_blue/translate_b.png"/>
+	<ico name="translator2" path="tut/menu/menu_pressed/translate_p.png"/>	
+
+		
+<!-- ******* audio-video -->
+	<ico name="cam_o0" path="tut/settings/cam_off_b.png"/>
+	<ico name="cam_o1" path="tut/settings/cam_on_b.png"/>
+	<ico name="cam_0" path="tut/settings/cam_off_w.png"/>
+	<ico name="cam_1" path="tut/settings/cam_on_w.png"/>
+
+	<ico name="mic_o0" path="tut/settings/sound_off_b.png"/>
+	<ico name="mic_o1" path="tut/settings/sound_on_b.png"/>
+	<ico name="mic_0" path="tut/settings/sound_off_w.png"/>
+	<ico name="mic_1" path="tut/settings/sound_on_w.png"/>
+
+	<ico name="muted" path="tut/other/muted.png"/>	
+	<!--ico name="muted_swf" path="tut/other/no_cam.swf" load="false"/-->	
+	<ico name="muted_swf" path="tut/other/no_camera_1.swf" load="false"/>	
+	
+<!-- ******* whiteboard -->
+	<ico name="w_ctrl" path="tut/whiteboard/wb_white/font.png"/>
+
+	<ico name="text1" path="tut/whiteboard/wb_white/text_w.png"/>
+	<ico name="text0" path="tut/whiteboard/wb_blue/text_b.png"/>
+	<ico name="text2" path="tut/whiteboard/wb_pressed/text_p.png"/>
+
+	<ico name="draw1" path="tut/whiteboard/wb_white/draw_w.png"/>
+	<ico name="draw0" path="tut/whiteboard/wb_blue/draw_b.png"/>
+	<ico name="draw2" path="tut/whiteboard/wb_pressed/draw_p.png"/>
+
+	<ico name="line1" path="tut/whiteboard/wb_white/line_w.png"/>
+	<ico name="line0" path="tut/whiteboard/wb_blue/line_b.png"/>
+	<ico name="line2" path="tut/whiteboard/wb_pressed/line_p.png"/>
+
+	<ico name="circ1" path="tut/whiteboard/wb_white/circle_w.png"/>
+	<ico name="circ0" path="tut/whiteboard/wb_blue/circle_b.png"/>
+	<ico name="circ2" path="tut/whiteboard/wb_pressed/circle_p.png"/>
+
+	<ico name="undo1" path="tut/whiteboard/wb_white/undo_w.png"/>
+	<ico name="undo0" path="tut/whiteboard/wb_blue/undo_b.png"/>
+	<ico name="undo2" path="tut/whiteboard/wb_pressed/undo_p.png"/>
+
+	<ico name="erase1" path="tut/whiteboard/wb_white/erase_w.png"/>
+	<ico name="erase0" path="tut/whiteboard/wb_blue/erase_b.png"/>
+	<ico name="erase2" path="tut/whiteboard/wb_pressed/erase_p.png"/>
+
+	<ico name="zoom1" path="tut/whiteboard/wb_white/zoom_p_w.png"/>
+	<ico name="zoom0" path="tut/whiteboard/wb_blue/zoom_p_b.png"/>
+	<ico name="zoom2" path="tut/whiteboard/wb_pressed/zoom_p_p.png"/>
+
+
+	<ico name="plus1" path="tut/whiteboard/wb_white/add_page_w.png"/>
+	<ico name="plus0" path="tut/whiteboard/wb_blue/add_page_b.png"/>
+	<ico name="plus2" path="tut/whiteboard/wb_pressed/add_page_p.png"/>
+
+	<ico name="minus1" path="tut/whiteboard/wb_white/remove_page_w.png"/>
+	<ico name="minus0" path="tut/whiteboard/wb_blue/remove_page_b.png"/>
+	<ico name="minus2" path="tut/whiteboard/wb_pressed/remove_page_p.png"/>
+
+	<ico name="clear1" path="tut/whiteboard/wb_white/clean_page_w.png"/>
+	<ico name="clear0" path="tut/whiteboard/wb_blue/clean_page_b.png"/>
+	<ico name="clear2" path="tut/whiteboard/wb_pressed/clean_page_p.png"/>
+
+	<ico name="clearall1" path="tut/whiteboard/wb_white/delete_all_w.png"/>
+	<ico name="clearall0" path="tut/whiteboard/wb_blue/delete_all_b.png"/>
+	<ico name="clearall2" path="tut/whiteboard/wb_pressed/delete_all_p.png"/>
+
+
+	<ico name="lt1" path="tut/whiteboard/wb_white/prev_act_w.png"/>
+	<ico name="lt4" path="tut/whiteboard/wb_white/prev_inact_w.png"/>
+	<ico name="lt0" path="tut/whiteboard/wb_blue/prev_b.png"/>
+	<ico name="lt2" path="tut/whiteboard/wb_pressed/prev_p.png"/>
+
+	<ico name="gt1" path="tut/whiteboard/wb_white/next_act_w.png"/>
+	<ico name="gt4" path="tut/whiteboard/wb_white/next_inact_w.png"/>
+	<ico name="gt0" path="tut/whiteboard/wb_blue/next_b.png"/>
+	<ico name="gt2" path="tut/whiteboard/wb_pressed/next_p.png"/>
+
+	<ico name="save1" path="tut/whiteboard/wb_white/save_w.png"/>
+	<ico name="save0" path="tut/whiteboard/wb_blue/save_b.png"/>
+	<ico name="save2" path="tut/whiteboard/wb_pressed/save_p.png"/>
+	
+	<ico name="load1" path="tut/whiteboard/wb_white/upload_w.png"/>
+	<ico name="load0" path="tut/whiteboard/wb_blue/upload_b.png"/>
+	<ico name="load2" path="tut/whiteboard/wb_pressed/upload_p.png"/>
+	
+<!-- ******* chat -->
+	<ico name="chatEnter1" path="tut/other/sndms_w.png"/>
+	<ico name="chatEnter0" path="tut/other/sndms_b.png"/>
+	<ico name="chatEnter3" path="tut/other/sndms_d.png"/>
+	
+	<ico name="chatUsers" path="tut/other/users.png"/>
+	
+<!-- ******* pres list -->
+	<!-- ico name="handUp1" path="tut/other/hand_up_w.png"/>
+	<ico name="handUp0" path="tut/other/hand_up_b.png"/>
+	<ico name="handUp2" path="tut/other/hand_up_p.png"/-->
+	
+	<!--ico name="writing" path="tut/other/pen.png"/>
+	<ico name="handUp" path="tut/other/hand_up.png"/>
+	<ico name="streamingOn" path="tut/other/streaming.png"/-->
+
+	<ico name="stHandUp" 		path="tut/status/hand_1.gif"/>
+	<ico name="stHandDown" 		path="tut/status/hand_0.gif"/>
+	<ico name="stStreamingOn" 	path="tut/status/voice_1.gif"/>
+	<ico name="stStreamingOff" 	path="tut/status/voice_0.gif"/>
+	<ico name="stTyping" 		path="tut/status/write_1.gif"/>
+	<ico name="stNotTyping" 	path="tut/status/write_0.gif"/>
+
+	<ico name="handUp_1" path="tut/other/usr_popup/ruka_1.png"/>
+	<ico name="handUp_2" path="tut/other/usr_popup/ruka_2.png"/>
+	<ico name="handUp_3" path="tut/other/usr_popup/ruka_3.png"/>
+	<ico name="handUp_4" path="tut/other/usr_popup/ruka_4.png"/>
+	<ico name="handUp_5" path="tut/other/usr_popup/ruka_5.png"/>
+	<ico name="handUp_6" path="tut/other/usr_popup/ruka_6.png"/>
+
+	<!--ico name="speaking_1" path="tut/other/usr_popup/speaking_1.png"/>
+	<ico name="speaking_2" path="tut/other/usr_popup/speaking_2.png"/>
+	<ico name="speaking_3" path="tut/other/usr_popup/speaking_3.png"/>
+	<ico name="speaking_4" path="tut/other/usr_popup/speaking_4.png"/>
+	<ico name="speaking_5" path="tut/other/usr_popup/speaking_5.png"/>
+	<ico name="speaking_6" path="tut/other/usr_popup/speaking_6.png"/-->
+	
+	<ico name="speaking_1" path="tut/other/usr_popup/sp_off_w.gif"/>
+	<ico name="speaking_2" path="tut/other/usr_popup/sp_off_b.gif"/>
+	<ico name="speaking_3" path="tut/other/usr_popup/sp_off_p.gif"/>
+	<ico name="speaking_4" path="tut/other/usr_popup/sp_on_w.gif"/>
+	<ico name="speaking_5" path="tut/other/usr_popup/sp_on_b.gif"/>
+	<ico name="speaking_6" path="tut/other/usr_popup/sp_on_p.gif"/>
+	
+</icons>

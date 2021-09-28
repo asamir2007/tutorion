@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AutoResponder LastSave="2012-09-27T06:24:53.6156111+04:00" FiddlerVersion="4.4.1.1">
+  <State Enabled="true" Fallthrough="true" UseLatency="false">
+    <ResponseRule Match="regex:(?insx)^http://tutorion.com/winpf2/winpf.swf.*" Action="J:\JCD\Flash\works\contract\Tutorion\TTCC\TTCC\bin\TTCC.swf" Enabled="false" />
+    <ResponseRule Match="regex:(?insx)^*.resources.*" Action="J:\JCD\Flash\works\contract\Tutorion\TTCC\ResourcesLibraryEssential\bin\resources0.swf" Enabled="false" />
+    <ResponseRule Match="regex:(?insx)^http://req.samir.v2.tutorion.com//winpf.swf?.*" Action="J:\JCD\Flash\works\contract\Tutorion\TTCC\TTCC\bin\TTCC.swf" Enabled="false" />
+    <ResponseRule Match="regex:(?insx)^http://req\.samir\.v2\.tutorion\.ru\/resources0\.swf\?.+" Action="J:\JCD\Flash\works\contract\Tutorion\TTCC\ResourcesLibraryEssential\bin\resources0.swf" Enabled="true" />
+  </State>
+</AutoResponder>

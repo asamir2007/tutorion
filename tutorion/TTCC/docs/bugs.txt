@@ -1,0 +1,14 @@
+﻿TypeError: Error #1009: Не удается вызвать свойство или метод со ссылкой на объект "null".
+	at ttcc.c.ma::MUserData/processDataUpdatedEvent()[J:\JCD\Flash\works\contract\Tutorion\TTCC\TTCC\src\ttcc\c\ma\MUserData.as:206]
+	at ttcc.c.ma::MUserData/el_soa()[J:\JCD\Flash\works\contract\Tutorion\TTCC\TTCC\src\ttcc\c\ma\MUserData.as:158]
+	at ttcc.n.a::FMSSOUDAdaptor/el_so()[J:\JCD\Flash\works\contract\Tutorion\TTCC\TTCC\src\ttcc\n\a\FMSSOUDAdaptor.as:94] done
+
+	
+	фигуры за доску вылезают при зуме done
+	
+	баг aswing бегунок не на курсоре по вертикали
+	
+	ограничить размер окон при ресайзе чтобы не вылезали за границы 
+	приложения
+	
+	размер рабочей области как в текущей done

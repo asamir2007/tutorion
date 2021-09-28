@@ -1,0 +1,41 @@
+[{"id":"136",
+	"parent_id":"0",
+	"name":"private_folder",
+	"typ":"folder",
+	"file_id":"0",//ignore
+	"owner":"45",//ignore
+	"status":"2",//ignore
+	,"cr_room":null//ignore
+	"fname":null//file name
+	,"dir":null// file directory
+	}
+,{"id":"516",
+	"parent_id":"136",
+	"name":"\u0417\u0430\u043d\u044f\u0442\u0438\u0435_45_\u0413\u043e\u0441\u0442\u0438\u043d\u0430\u044f_27.8.2012_02:18:40 PM",
+	"typ":"course",
+	"owner":"45",
+	"file_id":"1536",
+	"status":"1",
+	"fname":"3d7caa5f.rse",
+	"dir":"files\/files\/course_45",
+	"cr_room":"652"}
+,{"id":"517",
+	"parent_id":"136",
+	"name":"\u0417\u0430\u043d\u044f\u0442\u0438\u0435_45_\u0413\u043e\u0441\u0442\u0438\u043d\u0430\u044f_27.8.2012_02:20:53 PM",
+	"typ":"course",
+	"owner":"45",
+	"file_id":"1538",
+	"status":"1",
+	"fname":"159a15d1.rse",
+	"dir":"files\/files\/course_45",
+	"cr_room":"652"}
+,{"id":"518",
+	"parent_id":"136",
+	"name":"\u0417\u0430\u043d\u044f\u0442\u0438\u0435_45_\u0413\u043e\u0441\u0442\u0438\u043d\u0430\u044f_27.8.2012_02:23:47 PM",
+	"typ":"course",
+	"owner":"45",
+	"file_id":"1539",
+	"status":"1",
+	"fname":"eebc2dd3.rse",
+	"dir":"files\/files\/course_45",
+	"cr_room":"652"}]

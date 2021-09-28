@@ -1,0 +1,62 @@
+	<root>
+  <descr ID="normal" text="normal mode"/>
+
+  <!--  *************  modules  ****************  --> 
+  <mod ID="taskbar" wx="9" wy="24" ww="626" wh="398" window_is_visible="1" styl="taskbar_styl"/>
+   <mod ID="reports" wx="111" wy="222" ww="400" wh="400" window_is_visible="0"   mp_button_is_visible="1" styl=""/>
+  <mod ID="replay_manager_OFF" record_mode="1" wx="150" wy="11" ww="258" wh="82" window_is_visible="1"  mp_button_is_visible="1"/>
+  <mod ID="debug_info" wx="827" wy="31" ww="408" wh="602" level="2" window_is_visible="1"  mp_button_is_visible="1"/>
+  <mod ID="presentation_loader" wx="430" wy="198" ww="416" wh="449" window_is_visible="0" mp_button_is_visible="0" styl="pres_styl"/>
+  <mod ID="course_loader" wx="330" wy="248" ww="416" wh="449" window_is_visible="0" mp_button_is_visible="1"/>
+  <mod ID="text_chat" wx="252" wy="150" ww="110" wh="111" window_is_visible="1" styl="chat_styl" mp_button_is_visible="1"/>
+  <mod ID="user_list" wx="252" wy="150" ww="110" wh="111" window_is_visible="1" styl="" mp_button_is_visible="1"/>
+  <mod ID="v_list" wx="75" wy="32" ww="450" wh="250" window_is_visible="1" mp_button_is_visible="1" styl="video_3"/>
+  <mod ID="whiteboard" test_mode="0" wx="305" wy="252" ww="472" wh="344" window_is_visible="1" mp_button_is_visible="1" styl="wb_styl"/>
+  <mod ID="session_info" wx="222" wy="100" ww="300" wh="300" window_is_visible="0" mp_button_is_visible="1" styl=""/>
+
+   <mode ID="default" label="normalMode">
+		<mod ID="presentation_loader" px="22.740963" py="4.854368" pw="51.280120" ph="89.320388" wx="430" wy="198" ww="416" wh="449" window_is_visible="0"/>
+		<mod ID="course_loader" px="6.551204" py="16.828478" pw="34.337349" ph="56.796116"  wx="688" wy="331" ww="300" wh="220" window_is_visible="0"/>
+		<mod ID="replay_manager" px="75.376506" py="26.699029" pw="22.590361" ph="16.181229" record_mode="1" wx="688" wy="558" ww="300" wh="102" window_is_visible="0"/>
+		<mod ID="debug_info" px="1" py="4.854368" pw="100" ph="35" wx="827" wy="31" ww="408" wh="602" level="2" window_is_visible="0"/>
+		<mod ID="v_list" px="59.119897" py="3.133514" pw="40.369897" ph="50" wx="8" wy="410" ww="673" wh="251" window_is_visible="1"/>
+		<mod ID="text_chat" px="59.119897" py="54.632152" pw="40.369897" ph="41.280653" wx="688" wy="26" ww="300" wh="295" window_is_visible="1"/>
+		<mod ID="whiteboard" px="0.446428" py="2.861035" pw="58.163265" ph="92.779291" wx="8" wy="25" ww="673" wh="377" window_is_visible="1"/>
+    </mode>
+   <mode ID="chatAndWb" label="chatAndWb">
+		<mod ID="presentation_loader" px="22.740963" py="4.854368" pw="51.280120" ph="89.320388" wx="430" wy="198" ww="416" wh="449" window_is_visible="0"/>
+		<mod ID="course_loader" px="6.551204" py="16.828478" pw="34.337349" ph="56.796116"  wx="688" wy="331" ww="300" wh="220" window_is_visible="0"/>
+		<mod ID="replay_manager" px="75.376506" py="26.699029" pw="22.590361" ph="16.181229" record_mode="1" wx="688" wy="558" ww="300" wh="102" window_is_visible="0"/>
+		<mod ID="debug_info" px="1" py="4.854368" pw="100" ph="35" wx="827" wy="31" ww="408" wh="602" level="2" window_is_visible="0"/>
+		<mod ID="v_list" wx="75" wy="32" ww="450" wh="250" window_is_visible="0"/>
+		<mod ID="whiteboard" px="0.446428" py="2.861035" pw="58.163265" ph="92.779291" wx="5" wy="20" ww="759" wh="441" window_is_visible="1"/>
+		<mod ID="text_chat" px="59.119897" py="3.133514" pw="40.369897" ph="92.779291"
+ window_is_visible="1"/>
+    </mode>
+   <mode ID="chatAndAV" label="chatAndAV">
+		<mod ID="presentation_loader" px="22.740963" py="4.854368" pw="51.280120" ph="89.320388" wx="430" wy="198" ww="416" wh="449" window_is_visible="0"/>
+		<mod ID="course_loader" px="6.551204" py="16.828478" pw="34.337349" ph="56.796116"  wx="688" wy="331" ww="300" wh="220" window_is_visible="0"/>
+		<mod ID="replay_manager" px="75.376506" py="26.699029" pw="22.590361" ph="16.181229" record_mode="1" wx="688" wy="558" ww="300" wh="102" window_is_visible="0"/>
+		<mod ID="debug_info" px="1" py="4.854368" pw="100" ph="35" wx="827" wy="31" ww="408" wh="602" level="2" window_is_visible="0"/>
+		<mod ID="whiteboard" px="0.446428" py="3.269754" pw="69.005102" ph="93.051771" wx="8" wy="25" ww="673" wh="377" window_is_visible="1"/>
+		<mod ID="v_list" px="69.770408" py="3.405994" pw="29.591836" ph="92.915531" window_is_visible="1"/>
+		<mod ID="text_chat" wx="5" wy="467" ww="759" wh="250" window_is_visible="0"/>
+    </mode>  
+	
+
+  <resources>
+	<res filename="resources0.swf" group_critical="0" group_id="baseUIRes"/>
+  </resources>
+  
+  <include file="menu_new.xml" toTag="main_menu"/>
+  <include file="UIText_ru_RU.xml" toTag="ui_text"/>
+  
+  <!--  *************  language  ****************  -->
+  <!--include file="lang.xml" toTag="lang"/-->
+
+  
+<modeSettings buffer_time_in="1"  buffer_time_in_max="1"  buffer_time_out="1"  buffer_time_out_max="1" video_resolution_w="320" video_resolution_h="240" freeze_timeout="10000" disconnect_timeout="50000" />
+<include file="common_settings.xml" toTag="common_settings"/>	
+
+	
+</root>
