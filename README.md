@@ -1,4 +1,4 @@
-предоставленный код либо не находится "под NDA" либо уже более не находится "под NDA" тоесть я могу его показать не нарушая соглашений.
+предоставленный код либо не находился под NDA либо уже более не находится под NDA тоесть я могу его показать не нарушая соглашений.
 
 
 подробное описание моего опыта:
@@ -12,8 +12,8 @@ https://sites.google.com/site/softwaredeveloperportfolio2008/projects/
 \tutorion\TTCC\docs\Project TTCC.pdf
 некоторая документация по архитектуре
 
-\tutorion\TTCC\TTCC\src\ttcc\LOG.as
 логгирование состояния и событий приложения в консоль. сообщение имеет уровень(INFO WARNING ERROR) и имя компонента.
+\tutorion\TTCC\TTCC\src\ttcc\LOG.as
 
 
 "входная точка" проекта
@@ -24,70 +24,72 @@ https://sites.google.com/site/softwaredeveloperportfolio2008/projects/
 \tutorion\TTCC\TTCC\src\ttcc\third_party\*
 
 
-данные конкурентной разведки(собрано мною)
-tutorion.7z\tutorion\обзоры платформ\*
-
 \tutorion\TTCC\TTCC\src\org\aswing
 порт фреймворка Java Swing на ActionScript 3. это кастомная версия - я убрал баги
 
-\tutorion\TTCC\TTCC\src\org\jinanoimateydragoncat\
 мои различные хелперы и фреймворки
-\tutorion\TTCC\TTCC\src\org\jinanoimateydragoncat\utils\flow\agents
+\tutorion\TTCC\TTCC\src\org\jinanoimateydragoncat\
 концепция которую я создал по идее агентно ориентированного программирования
-\tutorion\TTCC\TTCC\src\org\jinanoimateydragoncat\utils\flow\operations
+\tutorion\TTCC\TTCC\src\org\jinanoimateydragoncat\utils\flow\agents
 концепция операций с кодом завершения. позднее я от нее отказался(детали ниже)
+\tutorion\TTCC\TTCC\src\org\jinanoimateydragoncat\utils\flow\operations
 
 
-\tutorion\TTCC\TTCC\src\ttcc\Application.as
 строка 69
 создается отдельная среда и агент для подготовки приложения к запуску. после запуска приложения используется другая среда с другим набором агентов находящейся в ней.
+\tutorion\TTCC\TTCC\src\ttcc\Application.as
 
-\tutorion\TTCC\TTCC\src\ttcc\c\
 в этом пакете все что связано с контролем
+\tutorion\TTCC\TTCC\src\ttcc\c\
 
-\tutorion\TTCC\TTCC\src\ttcc\c\ae
 кастомные среды агентов (конкретно для этого проекта)
+\tutorion\TTCC\TTCC\src\ttcc\c\ae
 
-\tutorion\TTCC\TTCC\src\ttcc\c\op\*
 "операции" у каждой код завершения либо success либо error. позднее я отказался от этой концепции. вместо нее в среде размещались данные о состоянии target и агенты анализируя эти данные принимали решение о том что делать дальше чтобы привести ее к нужному состоянию либо просто реагировали на изменение состояния среды.
+\tutorion\TTCC\TTCC\src\ttcc\c\op\*
 
 
-\tutorion\TTCC\TTCC\src\ttcc\c\ma\ac
 в этом пакете находятся менеджеры котоорые управляют компонентами(модулями) приложения например чат доска файл менеджер видео итд.
+\tutorion\TTCC\TTCC\src\ttcc\c\ma\ac
 
-\tutorion\TTCC\TTCC\src\ttcc\c\ma
 в этом пакете находятся менеджеры следующего уровня иерархии. они управляются менеджерами из вышеупомянутого пакета. каждый такой модуль инкапсулирован его можно скопировать в другое приложение
+\tutorion\TTCC\TTCC\src\ttcc\c\ma
 
-\tutorion\TTCC\TTCC\src\ttcc\c\vcm
 менеджеры (агенты) управляющие компонентами вида приложения. эти менеджеры самого верхнего уровня иерархии. они организуют работу более узкоспециализированных менеджеров(менеджеры составляющие компоненты). каждый такой компонент можно вытащить из проекта и внедрить в новый без измениня кода.
+\tutorion\TTCC\TTCC\src\ttcc\c\vcm
 
-\tutorion\TTCC\TTCC\src\ttcc\c\ma\MReplay.as
 это менеджер реплей режима. в этом режиме все состояние модели приложения воспроизводится. это было сделано чтобы заменить видеозапись с экрана. при воспровизведении кнопки сами нажимаются итд как будто это видеозапись.
+\tutorion\TTCC\TTCC\src\ttcc\c\ma\MReplay.as
 
 
 
-\tutorion\TTCC\TTCC\src\ttcc\d\
 в этом пакете все что связано с данными
-\tutorion\TTCC\TTCC\src\ttcc\d\a
+\tutorion\TTCC\TTCC\src\ttcc\d\
+
 value objects приложения (DataUnit)
-\tutorion\TTCC\TTCC\src\ttcc\d\dp
+\tutorion\TTCC\TTCC\src\ttcc\d\a
+
 обработчики данных(data processor)
+\tutorion\TTCC\TTCC\src\ttcc\d\dp
+
+data storage processors
 \tutorion\TTCC\TTCC\src\ttcc\d\dsp
-не помню как расшифровыется "dsp"
-\tutorion\TTCC\TTCC\src\ttcc\d\m
+
 модели данных с методами read & write
-\tutorion\TTCC\TTCC\src\ttcc\d\s
+\tutorion\TTCC\TTCC\src\ttcc\d\m
+
 объекты данных которые используются для коммуникация с сервером
-\tutorion\TTCC\TTCC\src\ttcc\d\v
+\tutorion\TTCC\TTCC\src\ttcc\d\s
+
 объекты данных которые используются в View data flow
+\tutorion\TTCC\TTCC\src\ttcc\d\v
 
 
 
 
-\tutorion\TTCC\TTCC\src\ttcc\n\
 в этом пакете все что связано с сетью
+\tutorion\TTCC\TTCC\src\ttcc\n\
 
-\tutorion\TTCC\TTCC\src\ttcc\v\
 в этом пакете все что связано с видом
 VCMainScreen.as - код главного экрана приложения
 в пакете есть подпакеты для каждого компонента:
@@ -98,11 +100,15 @@ mp - главная панель приложения
 pl - лоадер презентаций
 r - реплей менеджер(все действия курса записываются и потом можно воспроизвести все события(нажатие кнопок рисование на доске пауза видео итд)
 wb - whiteboard доска на которой можно рисовать
+\tutorion\TTCC\TTCC\src\ttcc\v\
 
 
-\tutorion\TTCC\TTCC\src\ttcc\cfg\
 конфигурация приложения
+\tutorion\TTCC\TTCC\src\ttcc\cfg\
 
-как можно заметить нет юнит тестов. я не использую тестирование код разделен на слабосвязанные изолированные части.
+нет юнит тестов. не использую тестирование код разделен на слабосвязанные изолированные части.
 
-эта архитектура была также портирована на js и php. я собрал на этой базе свой фреймворк для RESTful приложений
+эта архитектура была также портирована на js и php. собрал на этой базе свой фреймворк для RESTful приложений
+
+данные конкурентной разведки(собрано мною)
+\tutorion\обзоры платформ\*
